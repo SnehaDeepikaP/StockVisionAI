@@ -3,8 +3,6 @@ import subprocess
 import json
 import re
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
 import time
 import os
 import base64
