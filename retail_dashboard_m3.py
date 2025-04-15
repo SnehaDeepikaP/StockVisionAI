@@ -395,9 +395,6 @@ with col1:
         st.markdown(
     """
     <a href="https://demandforecastingai.streamlit.app/" target="_blank">
-        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
-            🚀 Launch Demand Forecasting Dashboard
-        </button>
     </a>
     """,
     unsafe_allow_html=True
@@ -421,9 +418,6 @@ with col2:
         st.markdown(
     """
     <a href="https://inventorymanagementai.streamlit.app/" target="_blank">
-        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
-            🚀 Launch Demand Forecasting Dashboard
-        </button>
     </a>
     """,
     unsafe_allow_html=True
@@ -449,9 +443,6 @@ with col3:
         st.markdown(
     """
     <a href="https://pricingoptimizationai.streamlit.app/" target="_blank">
-        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
-            🚀 Launch Demand Forecasting Dashboard
-        </button>
     </a>
     """,
     unsafe_allow_html=True
