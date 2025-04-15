@@ -288,20 +288,34 @@ with st.sidebar:
     
     with col1:
         if st.button("📊 Forecasting", key="forecast_nav", use_container_width=True):
-            os.system("streamlit run forecast_updated.py")
-            st.components.v1.html(js)
-    
+                    st.markdown(
+    """
+    <a href="https://demandforecastingai.streamlit.app/" target="_blank">
+    </a>
+    """,
+    unsafe_allow_html=True
+)
     with col2:
         if st.button("📦 Inventory", key="inventory_nav", use_container_width=True):
-            os.system("streamlit run inventory_updated.py")
-            st.components.v1.html(js)
+                    st.markdown(
+    """
+    <a href="https://inventorymanagementai.streamlit.app/ target="_blank">
+    </a>
+    """,
+    unsafe_allow_html=True
+)
     
     col3, _ = st.columns(2)
     
     with col3:
         if st.button("💰 Pricing", key="pricing_nav", use_container_width=True):
-            os.system("streamlit run pricing_updated.py")
-            st.components.v1.html(js)
+                    st.markdown(
+    """
+    <a href="https://pricingoptimizationai.streamlit.app/" target="_blank">
+    </a>
+    """,
+    unsafe_allow_html=True
+)
     
     st.header("Model Settings")
     model = st.selectbox("Choose LLM", ["llama3.2", "mistral", "gemma", "phi3"], index=0)
