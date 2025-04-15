@@ -392,7 +392,17 @@ with col1:
             </ul>
     """, unsafe_allow_html=True)
     if st.button("🚀 Launch Demand Forecasting Dashboard"):
-        os.system("streamlit run forecast_updated2.py")
+        st.markdown(
+    """
+    <a href="https://demandforecastingai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Demand Forecasting Dashboard
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
 
 with col2:
     st.markdown("""
@@ -408,7 +418,17 @@ with col2:
             </ul>
     """, unsafe_allow_html=True)
     if st.button("🚀 Launch Inventory management Dashboard"):
-        os.system("streamlit run inventory_updated2.py")
+        st.markdown(
+    """
+    <a href="https://inventorymanagementai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Demand Forecasting Dashboard
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
 
 col3, _ = st.columns(2)
 
@@ -426,7 +446,17 @@ with col3:
             </ul>
     """, unsafe_allow_html=True)
     if st.button("🚀 Launch Pricing Oprimiization Dashboard"):
-        os.system("streamlit run pricing_updated2.py")
+        st.markdown(
+    """
+    <a href="https://pricingoptimizationai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Demand Forecasting Dashboard
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # System overview section
 st.markdown('<p class="sub-header">System Overview</p>', unsafe_allow_html=True)
