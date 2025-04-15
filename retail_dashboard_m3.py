@@ -288,30 +288,39 @@ with st.sidebar:
     
     with col1:
         if st.button("📊 Forecasting", key="forecast_nav", use_container_width=True):
-                    st.markdown(
+            st.markdown(
     """
     <a href="https://demandforecastingai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Demand Forecasting Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
 )
+
     with col2:
         if st.button("📦 Inventory", key="inventory_nav", use_container_width=True):
-                    st.markdown(
+            st.markdown(
     """
-    <a href="https://inventorymanagementai.streamlit.app/ target="_blank">
+    <a href="https://inventorymanagementai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Inventory Management Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
-)
-    
+)   
     col3, _ = st.columns(2)
     
     with col3:
         if st.button("💰 Pricing", key="pricing_nav", use_container_width=True):
-                    st.markdown(
+            st.markdown(
     """
     <a href="https://pricingoptimizationai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Pricing Optimization Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
@@ -409,11 +418,13 @@ with col1:
         st.markdown(
     """
     <a href="https://demandforecastingai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Demand Forecasting Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
 )
-
 
 with col2:
     st.markdown("""
@@ -432,11 +443,13 @@ with col2:
         st.markdown(
     """
     <a href="https://inventorymanagementai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Inventory Management Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
-)
-
+) 
 
 col3, _ = st.columns(2)
 
@@ -457,6 +470,9 @@ with col3:
         st.markdown(
     """
     <a href="https://pricingoptimizationai.streamlit.app/" target="_blank">
+        <button style='font-size: 18px; padding: 10px 20px; border-radius: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;'>
+            🚀 Launch Pricing Optimization Dashboard
+        </button>
     </a>
     """,
     unsafe_allow_html=True
