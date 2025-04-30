@@ -85,7 +85,7 @@ Copy
 Edit
 streamlit run app.py
 Open your browser to http://localhost:8501 to access the app.
-
+```
 Navigate the Interface:
 Forecasting: View demand forecasts and visualize sales trends.
 
@@ -105,9 +105,7 @@ Use the interactive chat to simulate real-time queries and check for accurate re
 Test the integration with external APIs or data sources.
 
 Project Structure
-mermaid
-Copy
-Edit
+```mermaid
 graph TD;
     A[StockVision AI] --> B[app.py];
     A --> C[requirements.txt];
@@ -116,6 +114,7 @@ graph TD;
     A --> F[LICENSE];
     C --> G[Environment Variables];
     C --> H[Ollama Settings];
+```
 Contributing
 Contributions are welcome! Please follow these steps:
 
