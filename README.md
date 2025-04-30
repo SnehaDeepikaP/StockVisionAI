@@ -68,7 +68,7 @@ pip install -r requirements.txt
 streamlit run retail_dashboard_m3.py
 ```
 
-**Testing**
+## Testing
 Test predefined queries (e.g., “Show me upcoming stockouts” or “What is the forecast for next month?”).
 
 Upload sample datasets for demand, inventory, and pricing to see how the agents react.
@@ -77,16 +77,21 @@ Use the interactive chat to simulate real-time queries and check for accurate re
 
 Test the integration with external APIs or data sources.
 
-**Project Structure**
-```mermaid
-graph TD;
-    A[StockVision AI] --> B[app.py];
-    A --> C[requirements.txt];
-    A --> D[.gitignore];
-    A --> E[README.md];
-    A --> F[LICENSE];
-    C --> G[Environment Variables];
-    C --> H[Ollama Settings];
+## Project StructureStockVisionAI/
+```
+│
+├── Datasets/
+│   ├── demand_forecasting.csv      # Historical sales data
+│   ├── inventory_monitoring.csv    # Inventory levels and movements
+│   └── pricing_optimization.csv    # Price points and performance metrics
+│
+├── forecast_updated2.py            # Demand forecasting module
+├── inventory_updated2.py           # Inventory management module
+├── pricing_updated2.py             # Pricing strategy algorithms
+├── retail_dashboard_m3.py          # Main Streamlit dashboard
+├── requirements.txt                # Project dependencies
+├── LICENSE                         # License information
+└── README.md                       # Project documentation
 ```
 ## Contributing
 Contributions are welcome! Please follow these steps:
