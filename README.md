@@ -54,36 +54,46 @@
 **retail_dashboard_m3.py:** Main user interface integrating all components
 
 ## Requirements
-// Core app framework
+**Core app framework**
+
 streamlit==1.32.2
 
-// Data handling
+**Data handling**
+
 pandas==2.2.2
 numpy==1.26.4
 
-// Visualization
+**Visualization**
+
 altair==5.2.0
 
-// Date and time utilities
-pytz==2024.1  # optional, if you're handling time zones
+**Date and time utilities**
 
-// System interaction
-// No need to install subprocess, os, re, json, datetime, time, base64, warnings — these are part of Python's standard library
+pytz==2024.1  
 
-// Optional: for CSV/string file handling (used via StringIO)
-// No external dependency needed for io.StringIO
+**System interaction**
 
-// Performance and UI enhancements
-streamlit-extras==0.3.5  // Optional, if you're using extras like download buttons or audio players
+No need to install subprocess, os, re, json, datetime, time, base64, warnings — these are part of Python's standard library
 
-// Environment variables and config (if applicable)
+Optional: for CSV/string file handling (used via StringIO)
+
+No external dependency needed for io.StringIO
+
+**Performance and UI enhancements**
+
+streamlit-extras==0.3.5 
+
+**Environment variables and config (if applicable)**
+
 python-dotenv==1.0.1
 
-// HTTP/LLM model communication (Ollama integration via REST)
-requests==2.31.0  # or httpx==0.27.0 if you're using async HTTP calls
+**HTTP/LLM model communication (Ollama integration via REST)**
 
-// Caching
-streamlit-caching==0.2.0  # Optional, for response or data caching
+requests==2.31.0  
+
+**Caching**
+
+streamlit-caching==0.2.0 
 
 ## Installation
 
