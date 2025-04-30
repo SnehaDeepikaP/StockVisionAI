@@ -7,9 +7,9 @@ import re
 from datetime import datetime, timedelta
 import random
 
-# ----------------------------
+# -----------------------------
 # Page Config
-# ----------------------------
+# -----------------------------
 
 st.set_page_config(page_title="📦 Inventory Monitoring Dashboard", layout="wide")
 st.title("📦 Enhanced Inventory Monitoring Dashboard")
