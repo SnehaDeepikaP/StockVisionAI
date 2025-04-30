@@ -14,7 +14,7 @@ import warnings
 # Ignore specific Streamlit warning
 warnings.filterwarnings("ignore", message=".missing ScriptRunContext.")
 
-# ------------------- Utility Functions -------------------
+# ------------------- Utility Functions --------------------
 def extract_valid_json(text):
     # Look for JSON arrays with square brackets
     matches = re.findall(r'(\[.*?\])', text, re.DOTALL)
