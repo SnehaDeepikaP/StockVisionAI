@@ -39,63 +39,36 @@
 - **Optional**: External data integration for demand, inventory, and pricing (or use sample datasets).
 
 ---
+## Components
+**Data Sources**
 
+**demand_forecasting.csv:** Historical sales data for demand prediction
+**inventory_monitoring.csv:** Current inventory levels and historical stock movements
+**pricing_optimization.csv:** Price points, competitor data, and sales performance metrics
+
+**Processing Modules**
+
+**forecast_updated2.py:** Implements time series forecasting models
+**inventory_updated2.py:** Handles inventory analytics and optimization
+**pricing_updated2.py:** Contains pricing strategy algorithms
+**retail_dashboard_m3.py:** Main user interface integrating all components
 ## Installation
 
-### Clone the Repository:
-
+**Clone the Repository:**
 ```bash
 git clone https://github.com/SnehaDeepikaP/StockVisionAI.git
 cd StockVisionAI
-Set Up a Virtual Environment:
-bash
-Copy
-Edit
-python -m venv venv
-.\venv\Scripts\activate  # On Windows
-source venv/bin/activate  # On macOS/Linux
-Install Dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Install Ollama:
-Download and install Ollama from ollama.ai.
-
-Run the LLaMA 3.2 model:
-
-bash
-Copy
-Edit
-ollama run llama3.2
-Configure Environment Variables:
-Create a .env file in the project root:
-
-ini
-Copy
-Edit
-OLLAMA_API_URL=http://localhost:11434/api/generate
-OLLAMA_MODEL=llama3.2
-(Optional: If you have external data sources, configure them in the .env file.)
-
-Usage
-Run the Application:
-bash
-Copy
-Edit
-streamlit run app.py
-Open your browser to http://localhost:8501 to access the app.
 ```
-Navigate the Interface:
-Forecasting: View demand forecasts and visualize sales trends.
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+**Run the dashboard:**
+```bash
+streamlit run retail_dashboard_m3.py
+```
 
-Inventory Management: Track stock levels, monitor reorder points, and receive alerts.
-
-Pricing Optimization: Adjust prices based on competitor analysis and market conditions.
-
-Chat with the System: Use the chatbot interface to ask for stock levels, forecasts, and price adjustments.
-
-Testing
+**Testing**
 Test predefined queries (e.g., “Show me upcoming stockouts” or “What is the forecast for next month?”).
 
 Upload sample datasets for demand, inventory, and pricing to see how the agents react.
@@ -104,7 +77,7 @@ Use the interactive chat to simulate real-time queries and check for accurate re
 
 Test the integration with external APIs or data sources.
 
-Project Structure
+**Project Structure**
 ```mermaid
 graph TD;
     A[StockVision AI] --> B[app.py];
@@ -115,20 +88,20 @@ graph TD;
     C --> G[Environment Variables];
     C --> H[Ollama Settings];
 ```
-Contributing
+## Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+1.Fork the repository.
 
-Create a new branch (git checkout -b feature/your-feature).
+2.Create a new branch (git checkout -b feature/your-feature).
 
-Make your changes and commit (git commit -m "Add your feature").
+3.Make your changes and commit (git commit -m "Add your feature").
 
-Push to the branch (git push origin feature/your-feature).
+4.Push to the branch (git push origin feature/your-feature).
 
-Open a pull request.
+5.Open a pull request.
 
-Please ensure your code follows PEP 8 style guidelines and includes appropriate tests.
+6.Please ensure your code follows PEP 8 style guidelines and includes appropriate tests.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
