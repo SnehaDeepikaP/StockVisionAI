@@ -7,9 +7,9 @@ import re
 import random
 from datetime import datetime, timedelta
 
-# ----------------------------
+# -----------------------------
 # Page Config
-# ----------------------------
+# -----------------------------
 st.set_page_config(page_title="💰 Pricing Optimization Dashboard", layout="wide")
 st.title("💰 Smart Pricing Optimization Dashboard")
 
