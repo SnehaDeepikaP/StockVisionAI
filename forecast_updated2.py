@@ -7,9 +7,9 @@ import re
 from datetime import datetime, timedelta
 import random
 
-# ----------------------------
+# -----------------------------
 # Page Config
-# ----------------------------
+# -----------------------------
 
 st.set_page_config(page_title="📦 Retail AI Forecast Dashboard", layout="wide")
 st.title("📦 Enhanced Retail Forecast Dashboard")
