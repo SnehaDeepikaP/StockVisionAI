@@ -1,0 +1,9 @@
+streamlit==1.32.2
+pandas==2.2.2
+numpy==1.26.4
+altair==5.2.0
+pytz==2024.1
+streamlit-extras==0.3.5
+python-dotenv==1.0.1
+requests==2.31.0
+streamlit-caching==0.2.0
